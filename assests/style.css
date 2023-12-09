@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #011627;
+    display: flex;
+    padding: 10px 30px 10px 30px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    color: #FDFFFC;
+}
+
+h2 {
+    margin: 0;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: end;
+    color: #FDFFFC;
+}
+
+.heroGrid {
+    background-color: #d9d9d9;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroContainer {
+    background-color: #FDFFFC;
+    height: 90%;
+    width: 97%;
+    display: grid;
+    grid-template-rows: 1fr 1f 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "card1 card1 card2"
+    "card1 card1 card3"
+    "card4 card5 card6"
+    ;
+
+}
+
+.card {
+    background-color: #d9d9d9;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card1 {
+    background-image: url(./images/mario.png);
+    grid-area: card1;
+}
+
+#card2 {
+    background-image: url(./images/mario.png);
+    grid-area: card2;
+}
+
+#card3 {
+    background-image: url(./images/mario.png);
+    grid-area: card3;
+}
+
+#card4 {
+    background-image: url(./images/mario.png);
+    grid-area: card4;
+}
+
+#card5 {
+    background-image: url(./images/mario.png);
+    grid-area: card5;
+}
+
+#card6 {
+    background-image: url(./images/mario.png);
+    grid-area: card6;
+}
+
+.contact {
+    background-color: #011627;
+    color: #d9d9d9;
+    padding: 15% 15% 15% 15%;
+    text-align: center;
+
+}
+
+.about {
+    background-color: #d9d9d9;
+    color: #011627;
+    align-items: center;
+    padding: 15% 15% 15% 15%;
+    text-align: center;
+}
+
+footer {
+    background-color: #011627;
+    padding: 10px 30px 10px 30px;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#footer-icon {
+    height: 30px;
+}
