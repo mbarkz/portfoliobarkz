@@ -1,5 +1,16 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  a {
+    text-decoration: none;
+    color: #d9d9d9;
+  }
+
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav {
@@ -9,6 +20,7 @@ body {
     margin: 0;
     justify-content: space-between;
     align-items: center;
+    font-weight: 900;
 }
 
 #logo {
@@ -90,7 +102,7 @@ ul {
     grid-area: card6;
 }
 
-.contact {
+.about {
     background-color: #011627;
     color: #d9d9d9;
     padding: 15% 15% 15% 15%;
@@ -98,7 +110,7 @@ ul {
 
 }
 
-.about {
+.contact {
     background-color: #d9d9d9;
     color: #011627;
     align-items: center;
