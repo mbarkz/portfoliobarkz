@@ -70,15 +70,16 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 2px 2px 10px rgb(185, 185, 185);;
 }
 
 #card1 {
-    background-image: url(./images/mario.png);
+    background-image: url(./images/refactoring.png);
     grid-area: card1;
 }
 
 #card2 {
-    background-image: url(./images/mario.png);
+    background-image: url(./images/pre-work.png);
     grid-area: card2;
 }
 
