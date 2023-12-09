@@ -133,6 +133,19 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+    #logo {
+        height: 40px;
+    }
+
+    ul {
+        flex-direction: row;
+        justify-content: right;
+    }
+
+    li {
+        margin: 5px;
+    }
+
     .heroGrid {
         height: auto;
         display: flex;
