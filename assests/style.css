@@ -51,7 +51,7 @@ ul {
 
 .heroContainer {
     background-color: #FDFFFC;
-    height: 90%;
+    height: 97%;
     width: 97%;
     display: grid;
     grid-template-rows: 1fr 1f 1fr;
@@ -146,7 +146,7 @@ footer {
 @media only screen and (max-width: 600px) {
 
     #logo {
-        height: 40px;
+        height: 2rem;
     }
 
     .nav {
@@ -167,6 +167,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 600px;
     }
 
     #card4 #card5 #card6 {
@@ -175,8 +176,8 @@ footer {
 
     .heroContainer {
         display: grid;
-        grid-template-rows: 400px 200px 200px;
-        grid-template-columns: 1fr;
+        grid-template-rows: 50% 25% 25%;
+        grid-template-columns: 100%;
         grid-template-areas: 
         "card1"
         "card2"
