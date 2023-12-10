@@ -13,6 +13,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+div {
+
+}
+
 .nav {
     background-color: #011627;
     display: flex;
@@ -170,10 +174,6 @@ footer {
         height: 600px;
     }
 
-    #card4 #card5 #card6 {
-        display: none;
-    }
-
     .heroContainer {
         display: grid;
         grid-template-rows: 50% 25% 25%;
@@ -183,7 +183,10 @@ footer {
         "card2"
         "card3"
         ;
-
+    }
+    
+    #card4 #card5 #card6 {
+        display: none !important;
     }
 }
 
